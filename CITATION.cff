@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Machine-checkable lower-bound certificate for w(2;3,39) >= 1421"
+message: "If you use this certificate package, please cite this repository."
+type: software
+authors:
+  - family-names: Luo
+    given-names: Zixuan
+repository-code: "https://github.com/mia577/vdw-2-3-39-lower-bound-certificate"
+date-released: "2026-06-16"
+license: MIT
+keywords:
+  - van der Waerden numbers
+  - arithmetic progressions
+  - Ramsey theory
+  - combinatorics
+  - machine-checkable certificate
