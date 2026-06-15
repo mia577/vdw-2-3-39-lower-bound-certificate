@@ -1,0 +1,23 @@
+name: verify-certificates
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify included certificates
+        run: |
+          python checker/independent_checker.py colorings/NEW_t32_n1011.txt --t 32
+          python checker/independent_checker.py colorings/NEW_t33_n1069.txt --t 33
+          python checker/independent_checker.py colorings/NEW_t35_n1205.txt --t 35
+          python checker/independent_checker.py colorings/NEW_t36_n1259.txt --t 36
+          python checker/independent_checker.py colorings/NEW_t39_n1420.txt --t 39
+
