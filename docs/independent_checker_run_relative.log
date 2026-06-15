@@ -1,0 +1,12 @@
+# Latest independent checker run
+# 2026-05-25T01:24:06
+> python checker\independent_checker.py colorings\NEW_t32_n1011.txt --t 32
+INDEPENDENT_OK t=32 n=1011
+> python checker\independent_checker.py colorings\NEW_t33_n1069.txt --t 33
+INDEPENDENT_OK t=33 n=1069
+> python checker\independent_checker.py colorings\NEW_t35_n1205.txt --t 35
+INDEPENDENT_OK t=35 n=1205
+> python checker\independent_checker.py colorings\NEW_t36_n1259.txt --t 36
+INDEPENDENT_OK t=36 n=1259
+> python checker\independent_checker.py colorings\NEW_t39_n1420.txt --t 39
+INDEPENDENT_OK t=39 n=1420
